@@ -66,7 +66,7 @@ const App = () => {
 	});
 
 	//	Add paths to the array that you don't want to be "Aside".
-	const withOutAsidePages = [demoPages.login.path, demoPages.signUp.path, layoutMenu.blank.path];
+	const withOutAsidePages = [demoPages.login.path, demoPages.signUp.path, layoutMenu.blank.path, layoutMenu.landing1.path];
 
 	return (
 		<ThemeProvider theme={theme}>
@@ -86,12 +86,13 @@ const App = () => {
 						}}>
 						<Routes>
 							{withOutAsidePages.map((path) => (
-								<Route key={path} path={path} />
+								<Route key={path} path={path} element={null} />
 							))}
 							
 							<Route path='*' element={<Aside />} />
 						</Routes>
 						<Wrapper />
+								
 					</div>
 					<Portal id='portal-notification'>
 						<ReactNotifications />

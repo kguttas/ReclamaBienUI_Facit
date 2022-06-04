@@ -34,7 +34,7 @@ export const dashboardMenu = {
 	dashboard: {
 		id: 'dashboard',
 		text: 'Dashboard',
-		path: '/',
+		path: '/Dashboard',
 		icon: 'Dashboard',
 		subMenu: null,
 	},
@@ -426,7 +426,7 @@ export const layoutMenu = {
 	landing1: {
 		id: 'landing1',
 		text: 'Landing Page 1',
-		path: 'page-layouts/landing1',
+		path: '/', // 'page-layouts/landing1',
 		icon: 'check_box_outline_blank ',
 	},
 

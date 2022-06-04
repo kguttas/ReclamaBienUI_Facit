@@ -25,7 +25,7 @@ const Footer = () => {
 								'link-dark': !darkModeStatus,
 								'link-light': darkModeStatus,
 							})}>
-							<small className='fw-bold'>Facit Theme</small>
+							<small className='fw-bold'>Reclama Bien</small>
 						</a>
 					</div>
 				</div>

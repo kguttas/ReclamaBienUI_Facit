@@ -20,7 +20,7 @@ const headers = [
 	{ path: layoutMenu.pageLayout.subMenu.onlySubheader.path, element: null, exact: true },
 	{ path: layoutMenu.pageLayout.subMenu.onlyContent.path, element: null, exact: true },
 	{ path: layoutMenu.blank.path, element: null, exact: true },
-	{ path: layoutMenu.landing1.path, element: null, exact: true },
+	// 	
 	{ path: demoPages.login.path, element: null, exact: true },
 	{ path: demoPages.signUp.path, element: null, exact: true },
 	{ path: demoPages.page404.path, element: null, exact: true },
